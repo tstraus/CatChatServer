@@ -1,0 +1,23 @@
+{
+  "name": "chatchatserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "catchat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tstraus/nodeCatChatServer.git"
+  },
+  "author": "Tucker Strausbaugh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tstraus/nodeCatChatServer/issues"
+  },
+  "homepage": "https://github.com/tstraus/nodeCatChatServer#readme",
+  "dependencies": {
+    "uuid": "^3.0.1",
+    "uws": "^0.14.5"
+  }
+}
