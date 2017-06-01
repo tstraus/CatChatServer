@@ -4,21 +4,26 @@
   "description": "",
   "main": "catchat.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard --verbose | snazzy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tstraus/nodeCatChatServer.git"
+    "url": "git+https://github.com/tstraus/CatChatServer.git"
   },
   "author": "Tucker Strausbaugh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tstraus/nodeCatChatServer/issues"
+    "url": "https://github.com/tstraus/CatChatServer/issues"
   },
-  "homepage": "https://github.com/tstraus/nodeCatChatServer#readme",
+  "homepage": "https://github.com/tstraus/CatChatServer#readme",
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "chalk": "^1.1.3",
     "uuid": "^3.0.1",
     "uws": "^0.14.5"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
   }
 }
