@@ -4,7 +4,7 @@ const uuid = require('uuid/v4')
 const WebSocketServer = require('uws').Server
 const chalk = require('chalk')
 
-const wss = new WebSocketServer({ port: 1234 })
+const wss = new WebSocketServer({ port: 2345 })
 let connections = new Map() // uuid to websocket connection map
 let users = new Map() // username to uuid map
 
