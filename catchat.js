@@ -2,9 +2,15 @@
 
 const uuid = require('uuid/v4')
 const WebSocketServer = require('uws').Server
+const express = require('express')
 const chalk = require('chalk')
 
-const wss = new WebSocketServer({ port: 2345 })
+const app = express()
+const server = app.listen(2345)
+const wss = new WebSocketServer({ server })
+
+app.use(express.static('../CatChatWebClient/dist'))
+
 let connections = new Map() // uuid to websocket connection map
 let users = new Map() // username to uuid map
 

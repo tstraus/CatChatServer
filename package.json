@@ -17,13 +17,14 @@
   },
   "homepage": "https://github.com/tstraus/CatChatServer#readme",
   "dependencies": {
-    "bcrypt": "^1.0.2",
-    "chalk": "^1.1.3",
-    "uuid": "^3.0.1",
-    "uws": "^0.14.5"
+    "bcrypt": "*",
+    "chalk": "^2.0.1",
+    "express": "*",
+    "uuid": "*",
+    "uws": "^8.14.0"
   },
   "devDependencies": {
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
+    "snazzy": "*",
+    "standard": "*"
   }
 }
